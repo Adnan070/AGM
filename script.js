@@ -37,3 +37,15 @@ const gotoNum = number => {
 
 update();
 
+var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+
+window.addEventListener('load',()=>{
+  console.log('ok',width)
+  let screenElement=document.getElementsByClassName('ak-sceen');
+  console.log(screenElement)
+  for (let i = 0; i < screenElement.length; i++) {
+    const element = screenElement[i];
+    element.style.width=`${screen.width}px`;
+  }
+  // document.getElementById('header').style.display=;
+});

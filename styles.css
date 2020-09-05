@@ -2,7 +2,7 @@
 body {
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
-  font-size: 16px;
+  /* font-size: 16px; */
   background-color: #0c0f15;
   color: #ababab; 
 }
@@ -12,7 +12,7 @@ body {
   font-weight: 600 !important;
   text-shadow: 2px 3px #ffdc12;  
 }
-
+ 
 .pt-tablecell {
   background-image: url(image2.jpg);
   background-position: center;
@@ -1442,7 +1442,36 @@ footer {
 
 @media screen and (max-width:574px){
   .ak{
-    max-width: 350px;
+    max-width: 300px;
+  }
+
+
+
+  .ak-header-table{
+    width: 100%;
+  }
+
+  .heading-page{
+    font-size: 24px;
+  }
+
+  .ak-about{
+    width: 330px;
+  }
+
+  .ak-service{
+    width: 330px;
+  }
+
+  .ak-news{
+    margin-left: 0;
+    margin-right: 0;
+    width: 360px;
+  }
+
+  .ak-no-padding{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
   .ak-partner{
@@ -1450,7 +1479,9 @@ footer {
   }
 
   .ak-partner-items{
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 120px;
+    max-height: 120px;
   }
+
+
 }
