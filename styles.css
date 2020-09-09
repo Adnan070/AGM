@@ -1445,7 +1445,17 @@ footer {
     max-width: 300px;
   }
 
+  .navbar{
+    margin: 1.2rem 0;
+  }
 
+  .home {
+    margin: 2.1rem 0;
+  }
+  
+  .hexagon-menu {
+    margin-top: 3rem;
+  }
 
   .ak-header-table{
     width: 100%;
@@ -1483,5 +1493,25 @@ footer {
     max-height: 120px;
   }
 
+  .main-cont{
+    margin-top: -8.7rem !important;
+  }
 
+}
+
+
+.ak-marg-b-20 {
+  margin-bottom: 2rem;
+}
+
+.ak-service {
+  margin-top: -2.2rem !important;
+}
+
+.icon {
+  padding: 20px 40px;
+}
+
+.our-services{
+  padding: 20px 5px;
 }
